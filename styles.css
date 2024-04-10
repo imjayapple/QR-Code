@@ -1,0 +1,24 @@
+
+
+
+/*Parent container*/
+.qr-code-and-text-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 50%;
+    width: 20%;
+    border: 1px solid black;
+    background-color: white;
+    padding: 20% 20%;
+    margin: auto;
+}
+
+/*Child Container*/
+.qr-code-container img {
+    display: flex;
+    width: 200px;
+    height: 200px;
+}
+/*Child Container*/
